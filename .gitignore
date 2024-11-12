@@ -1,0 +1,41 @@
+# editor config files
+.vscode
+
+# Deno Lock and Dependency Files
+deno.lock
+node_modules/
+
+# Compiled output (Deno cache)
+.denocache/
+dist/
+
+# Local environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# Zip files or other archives
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Ignore address CSV data files if large or unnecessary for repo
+zenkoku.csv
+zenkoku_utf8.csv
+csv_zenkoku.zip
