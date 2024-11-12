@@ -5,13 +5,11 @@
 - `utility/`: Folder containing utility functions and helpers for the project.
   - `build_index.ts`: Function to build an inverted index for efficient search.
   - `display_addresses.ts`: Function to display search results in a formatted manner.
-  - `generate.ts`: Generates necessary components for index.
   - `load_csv.ts`: Loads CSV data for the addresses.
   - `n_gram.ts`: Creates 2-grams for given text input.
   - `search.ts`: Searches for addresses based on the inverted index.
 - `types/`: Folder containing TypeScript interfaces.
   - `address.ts`: Interface defining the `Address` structure.
-- `convert_encoding.py`: Python script to convert CSV encoding if necessary.
 
 ## Setup Instructions
 
