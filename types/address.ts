@@ -1,5 +1,3 @@
-// types/address.ts
-
 export interface Address {
   postalCode: string
   prefecture: string
